@@ -1,0 +1,171 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-background {
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    gap:16px;
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.about {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+    align-items: flex-start;
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+p {
+    margin-top: 0px;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 24px;
+  background-color: #3882f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+img {
+    width: 300px;
+    height: 150px;
+}
+
+.content img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.item {
+  width: 150px;
+  text-align: center;
+}
+
+.item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.item p {
+  margin-top: 8px;
+}
+
+.text {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 75px;
+}
+
+.quotecontainer {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    font-style: italic;
+    font-size: xx-large;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+
+.quotesign {
+    font-weight: bold;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+.quote,
+.quotesign {
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.quote p {
+    margin-bottom: 0;
+}
+
+.cta {
+  background-color: #3882f6;
+  border-radius: 8px;
+  margin: 75px auto;
+  padding: 32px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  max-width: 980px;
+  box-sizing: border-box;
+}
+
+.ctatextbold {
+    font-weight: bold;
+}
+
+.ctatext {
+    color: white;
+    font-size: small;
+    margin-top: 0px;
+}
+
+.ctatextbold,
+.ctatext {
+  color: white;
+  margin: 0;
+}
+
+.button2 {
+  display: inline-block;
+  padding: 8px 24px;
+  background-color: #3882f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+
+footer {
+    font-weight: bold;
+    text-align: center;
+}
