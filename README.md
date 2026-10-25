@@ -1,2 +1,5 @@
 # odin-project-landingpage
-A landing page concept design for a theodinproject flexbox assignment
+
+A fictional mental health advocacy landing page created for The Odin Project Foundations Flexbox assignment and my web design portfolio.
+
+**Disclaimer:** The Advocate is a fictional concept and does not provide real-world mental health services.
